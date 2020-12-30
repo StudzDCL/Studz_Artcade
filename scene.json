@@ -1,0 +1,48 @@
+{
+  "display": {
+    "title": "Studz Artcade",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "Tau",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "0,0",
+      "0,1",
+      "1,0",
+      "1,1"
+    ],
+    "base": "0,0"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "54f5ee5e-d5be-4c2d-8094-363aed1cde41",
+    "point": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": "east",
+    "layout": {
+      "rows": 2,
+      "cols": 2
+    }
+  }
+}
