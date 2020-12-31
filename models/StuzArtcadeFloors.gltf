@@ -27,7 +27,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Joined Floors.001",
+            "name" : "Joined Floors.002",
             "rotation" : [
                 0,
                 -0.7071067690849304,
@@ -42,7 +42,7 @@
         },
         {
             "mesh" : 1,
-            "name" : "Joined_collider",
+            "name" : "Floors_Collider",
             "rotation" : [
                 0,
                 -0.7071067690849304,
@@ -60,16 +60,16 @@
         {
             "doubleSided" : true,
             "emissiveFactor" : [
-                0.0732356607913971,
-                0.0732356607913971,
-                0.0732356607913971
+                0.11927617341279984,
+                0.11927617341279984,
+                0.11927617341279984
             ],
-            "name" : "Material",
+            "name" : "Material.004",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    1,
-                    1,
-                    1,
+                    0.651405930519104,
+                    0.6514057517051697,
+                    0.6514058113098145,
                     1
                 ],
                 "metallicFactor" : 0,
@@ -79,7 +79,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.036",
+            "name" : "Plane.041",
             "primitives" : [
                 {
                     "attributes" : {
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "name" : "Plane.039",
+            "name" : "Plane.043",
             "primitives" : [
                 {
                     "attributes" : {
@@ -110,15 +110,15 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 340,
+            "count" : 428,
             "max" : [
                 1,
-                161,
+                161.00001525878906,
                 1
             ],
             "min" : [
                 -1,
-                0,
+                -1.9073486328125e-06,
                 -1
             ],
             "type" : "VEC3"
@@ -126,33 +126,33 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 340,
+            "count" : 428,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 340,
+            "count" : 428,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 612,
+            "count" : 786,
             "type" : "SCALAR"
         },
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 340,
+            "count" : 428,
             "max" : [
                 1,
-                161,
+                161.00001525878906,
                 1
             ],
             "min" : [
                 -1,
-                0,
+                -1.9073486328125e-06,
                 -1
             ],
             "type" : "VEC3"
@@ -160,56 +160,56 @@
         {
             "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 340,
+            "count" : 428,
             "type" : "VEC3"
         },
         {
             "bufferView" : 6,
             "componentType" : 5126,
-            "count" : 340,
+            "count" : 428,
             "type" : "VEC2"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 4080,
+            "byteLength" : 5136,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 4080,
-            "byteOffset" : 4080
+            "byteLength" : 5136,
+            "byteOffset" : 5136
         },
         {
             "buffer" : 0,
-            "byteLength" : 2720,
-            "byteOffset" : 8160
+            "byteLength" : 3424,
+            "byteOffset" : 10272
         },
         {
             "buffer" : 0,
-            "byteLength" : 1224,
-            "byteOffset" : 10880
+            "byteLength" : 1572,
+            "byteOffset" : 13696
         },
         {
             "buffer" : 0,
-            "byteLength" : 4080,
-            "byteOffset" : 12104
+            "byteLength" : 5136,
+            "byteOffset" : 15268
         },
         {
             "buffer" : 0,
-            "byteLength" : 4080,
-            "byteOffset" : 16184
+            "byteLength" : 5136,
+            "byteOffset" : 20404
         },
         {
             "buffer" : 0,
-            "byteLength" : 2720,
-            "byteOffset" : 20264
+            "byteLength" : 3424,
+            "byteOffset" : 25540
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 22984,
+            "byteLength" : 28964,
             "uri" : "StuzArtcadeFloors.bin"
         }
     ]
