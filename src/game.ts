@@ -56,17 +56,17 @@ const transform5 = new Transform({
 })
 entity4.addComponentOrReplace(transform5)
 
-const stuzartcadefloors = new Entity('stuzartcadefloors')
-engine.addEntity(stuzartcadefloors)
-stuzartcadefloors.setParent(_scene)
+const finalstudzartcadeneon = new Entity('finalstudzartcadeneon')
+engine.addEntity(finalstudzartcadeneon)
+finalstudzartcadeneon.setParent(_scene)
 const transform6 = new Transform({
   position: new Vector3(16, 0, 16),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-stuzartcadefloors.addComponentOrReplace(transform6)
-const gltfShape2 = new GLTFShape("models/StuzArtcadeFloors.gltf")
+finalstudzartcadeneon.addComponentOrReplace(transform6)
+const gltfShape2 = new GLTFShape("models/FinalStudzArtcadeNeon.gltf")
 gltfShape2.withCollisions = true
 gltfShape2.isPointerBlocker = true
 gltfShape2.visible = true
-stuzartcadefloors.addComponentOrReplace(gltfShape2)
+finalstudzartcadeneon.addComponentOrReplace(gltfShape2)
