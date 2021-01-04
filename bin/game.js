@@ -6943,20 +6943,20 @@ const transform9 = new Transform({
 })
 radio.addComponentOrReplace(transform9)
 
-const newcoloredbuildingartcade = new Entity('newcoloredbuildingartcade')
-engine.addEntity(newcoloredbuildingartcade)
-newcoloredbuildingartcade.setParent(_scene)
+const studzartcadeTryWallColorChang = new Entity('studzartcadeTryWallColorChang')
+engine.addEntity(studzartcadeTryWallColorChang)
+studzartcadeTryWallColorChang.setParent(_scene)
 const transform10 = new Transform({
   position: new Vector3(16, 0, 16),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-newcoloredbuildingartcade.addComponentOrReplace(transform10)
-const gltfShape5 = new GLTFShape("models/NewColoredBuildingArtcade_3.gltf")
+studzartcadeTryWallColorChang.addComponentOrReplace(transform10)
+const gltfShape5 = new GLTFShape("models/StudzArtcade_TryWallColorChange_2.gltf")
 gltfShape5.withCollisions = true
 gltfShape5.isPointerBlocker = true
 gltfShape5.visible = true
-newcoloredbuildingartcade.addComponentOrReplace(gltfShape5)
+studzartcadeTryWallColorChang.addComponentOrReplace(gltfShape5)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
