@@ -6933,30 +6933,30 @@ gltfShape4.isPointerBlocker = true
 gltfShape4.visible = true
 bloomingTurquoiseAcaciaTree.addComponentOrReplace(gltfShape4)
 
-const studzartcadebuildingNeonCuts = new Entity('studzartcadebuildingNeonCuts')
-engine.addEntity(studzartcadebuildingNeonCuts)
-studzartcadebuildingNeonCuts.setParent(_scene)
+const radio = new Entity('radio')
+engine.addEntity(radio)
+radio.setParent(_scene)
 const transform9 = new Transform({
+  position: new Vector3(7.756679534912109, 0.39209234714508057, 9.16369915008545),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000011920928955, 1, 1.0000011920928955)
+})
+radio.addComponentOrReplace(transform9)
+
+const newcoloredbuildingartcade = new Entity('newcoloredbuildingartcade')
+engine.addEntity(newcoloredbuildingartcade)
+newcoloredbuildingartcade.setParent(_scene)
+const transform10 = new Transform({
   position: new Vector3(16, 0, 16),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-studzartcadebuildingNeonCuts.addComponentOrReplace(transform9)
-const gltfShape5 = new GLTFShape("models/StudzArtcadeBuilding_NeonCuts_1.gltf")
+newcoloredbuildingartcade.addComponentOrReplace(transform10)
+const gltfShape5 = new GLTFShape("models/NewColoredBuildingArtcade_3.gltf")
 gltfShape5.withCollisions = true
 gltfShape5.isPointerBlocker = true
 gltfShape5.visible = true
-studzartcadebuildingNeonCuts.addComponentOrReplace(gltfShape5)
-
-const radio = new Entity('radio')
-engine.addEntity(radio)
-radio.setParent(_scene)
-const transform10 = new Transform({
-  position: new Vector3(7.713541030883789, 0.39209234714508057, 9.16369915008545),
-  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(1.0000009536743164, 1, 1.0000009536743164)
-})
-radio.addComponentOrReplace(transform10)
+newcoloredbuildingartcade.addComponentOrReplace(gltfShape5)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
